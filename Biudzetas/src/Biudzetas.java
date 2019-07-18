@@ -293,4 +293,18 @@ public class Biudzetas {
 		}
 
 	}
+	public void trintiIrasa() {
+
+		for (Irasas el : irasai) {
+			System.out.println(el);
+		}
+		validuotiID();
+		for (Irasas el : irasai) {
+			if (el.getId() == idInt) {
+				irasai.remove(el);
+				}
+				System.out.println("Irasas istrintas");
+			}
+		
+	}
 }

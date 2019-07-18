@@ -17,6 +17,7 @@ public class Main {
 					+ "[6] - gauti balansa \n"
 					+ "[7] - isaugoti duomenis faile \n"
 					+ "[8] - gauti duomenis is failo \n"
+					+ "[9] - itrinti irasa \n"
 					+ "[x] - baigti darba");
 			command = sc.next();
 			switch(command) {
@@ -35,6 +36,8 @@ public class Main {
 			case "7": b1.issaugotiDuomenis();
 			break;
 			case "8": b1.gautiDuomenis();
+			break;
+			case "9": b1.trintiIrasa();
 			break;
 			case "x": dar = false;
 			System.out.println("Darbas baigtas");
